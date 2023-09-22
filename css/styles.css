@@ -53,7 +53,7 @@ body{
     text-align: center;
 }
 
-#villetaBandera{
+#villetaBandera, #festivalBandas, #altoCruz, #estacionTren{
     width: 797px;
     height: 397px;
     text-align: center;
@@ -65,9 +65,27 @@ body{
     text-align: center;
 }
 
-#cristoViejo{
+#cristoViejo, #vistaAltoCruz{
     width: 859px;
     height: 439px;
+    text-align: center;
+}
+
+#festivalPanela, #saltoMicos{
+    width: 534px;
+    height: 771px;
+    text-align: center;
+}
+
+#familiaCampesina, #sancochoGallina{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+
+#panela, #tobogan{
+    width: 800px;
+    height: 600px;
     text-align: center;
 }
 
