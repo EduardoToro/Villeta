@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Skranji&display=swap');
+
+#mainTitle{
+    font-family: 'Skranji', cursive;
+    font-size: 54px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.menuNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: auto;
+}
+
+.buttonMenu{
+	color: black;	
+	text-align: center;
+    background-color: #FBFF00;
+    padding:10px 10px 10px 10px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 4px solid black;
+}
+
+.alignImages{
+    text-align: center;
+}
+
+#villetaPortada{
+    width: 384px;
+    height: 512px;
+    text-align: center;
+}
+
+#villetaBandera{
+    width: 797px;
+    height: 397px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Skranji', cursive;
+    font-size: 42px;
+}
+
+h3{
+    font-family: 'Skranji', cursive;
+    font-size: 36px;
+}
