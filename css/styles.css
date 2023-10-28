@@ -293,7 +293,11 @@ a:link {
         margin-bottom: 10px;
     }
 
-    .menuInternal2, .menuInternal3{
+    .menuInternal{
+        width: 600px;
+    }
+
+    .menuInternal2{
         grid-template-columns: 400px 350px; 
         grid-template-rows: 100px 100px 100px 100px 100px 100px;
     }
