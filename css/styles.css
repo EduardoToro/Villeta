@@ -1,6 +1,7 @@
 /*Se importan las fuentes seleccionadas de Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Skranji&display=swap');
 
+/*Por defecto estás configuraciones aplican para pantallas >1200px*/
 /*Fuente, tamaño y alineación de los títulos principales de las páginas*/
 #mainTitle{
     font-family: 'Skranji', cursive;
@@ -188,11 +189,13 @@ a:link {
 	color: black;
 }
 
+
+/*Ajuste para pantallas con tamaño menor a 800px*/
 @media (max-width:800px){
     #button-menu:checked ~ .menuNav{
         margin: 1px;
     }
-
+    /*Menú desplegable desde la parte derecha de la pantalla*/
     .menuNav{
         position: absolute;
         background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -210,8 +213,9 @@ a:link {
         margin: 1px; 
     }
 
+    /*Se redefinen el ancho, el texto y la forma de organizar los menus*/
     .buttonInternal{
-        width: 40%; /*Se redefine el ancho del botón*/
+        width: 40%;
         text-align: center;
         margin-bottom: 10px;
     }
@@ -230,6 +234,7 @@ a:link {
         margin: 0px 50px 0px 50px;
     }
 
+    /*Se ajustan el tamaño del título, subtitulos y el cuerpo*/
     #mainTitle{
         font-size: 28px;
     }
@@ -246,6 +251,7 @@ a:link {
         font-size: 18px;
     }
 
+    /*Ajuste del tamaño de las imagenes*/
     #villetaPortada, #DivisionVilleta, #EscudoVilleta, #VilletaLocation,
     #villetaBandera, #iglesiaAntigua, #BurroMatias, #cristoViejo, #hernandoBarahona,
     #ceiba, #festivalPanela, #festivalBandas, #familiaCampesina, #vistaAltoCruz,
@@ -265,6 +271,7 @@ a:link {
     }
 }
 
+/*Ajuste para pantallas con tamaño entre 800px y 1200px*/
 @media (min-width:800px) and (max-width:1200px){
     #button-menu:checked ~ .menuNav{
         margin: 1px;
