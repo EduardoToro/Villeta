@@ -163,6 +163,10 @@ body{
     border: 4px solid black;
 }
 
+#button-menu {
+    display: none;
+} 
+
 /*Se definen los estilos de las etiquetas de encabezados y títulos de las páginas web*/
 h2{
     font-family: 'Skranji', cursive;
@@ -177,4 +181,27 @@ h3{
 a:link {
 	text-decoration: none; /*Quita el underline de los links*/
 	color: black;
+}
+
+@media (max-width:800px){
+    #button-menu:checked ~ .menuNav{
+        margin: 1px;
+    }
+
+    .menuNav{
+        position: absolute;
+        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+		z-index: 10;
+        width: 200px;
+        padding: 5px;
+        margin-left: -60%;
+        transition: all 1s;
+        flex-direction: column;
+        border: 4px solid black;
+        border-radius: 20px;
+    }
+
+    .buttonMenu{
+        margin: 1px 1px 5px 1px; 
+    }
 }
