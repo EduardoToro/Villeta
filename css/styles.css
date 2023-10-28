@@ -163,6 +163,12 @@ body{
     border: 4px solid black;
 }
 
+.menuRef ul li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
 #button-menu {
     display: none;
 } 
@@ -202,6 +208,49 @@ a:link {
     }
 
     .buttonMenu{
-        margin: 1px 1px 5px 1px; 
+        margin: 1px; 
+    }
+
+    .buttonInternal{
+        width: 45%; /*Se redefine el ancho del botón*/
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .menuInternal2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttonInternal2{
+        margin-bottom: 10px;
+    }
+
+    .referencias{
+        font-size: 98%;
+        margin: 0px 1px 0px 1px;
+    }
+
+    #mainTitle, h2, h3, body{
+        font-size: 98%;
+    }
+
+    #villetaPortada, #DivisionVilleta, #EscudoVilleta, #VilletaLocation,
+    #villetaBandera, #iglesiaAntigua, #BurroMatias, #cristoViejo, #hernandoBarahona,
+    #ceiba, #festivalPanela, #festivalBandas, #familiaCampesina, #vistaAltoCruz,
+    #altoCruz, #sancochoGallina, #saltoMicos, #estacionTren, #panela, #tobogan,
+    #plazaMercado{
+        width: 70%;
+        height: 70%;
+    }
+
+    #LimitesVilleta{
+        width: 95%;
+    }
+
+    .ImgPortada{
+        width: 30%;
+        height: 30%;
     }
 }
+
