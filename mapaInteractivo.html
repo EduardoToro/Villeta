@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Villeta</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="Villeta.js"></script>
+</head>
+<body>
+    <!--Título principal-->
+    <div id="mainTitle"><h1>Mapa Interactivo</h1></div>
+    <!--Encabezado que contiene el menú de navegación y la imagenes iniciales-->
+    <header>
+        <input type="checkbox" id="button-menu">
+        <label for="button-menu"><img src="images/Menu24.png"></label>
+        <!--Menú de navegación que contiene los links a todas las páginas-->
+        <nav class="menuNav">
+            <a class="buttonMenu" href="index.html" target="_self">Inicio</a>
+            <a class="buttonMenu" href="historia.html" target="_self">Historia</a>
+            <a class="buttonMenu" href="personajesHistoricos.html" target="_self">Personajes Históricos</a>
+            <a class="buttonMenu" href="actividadesTuristicas.html" target="_self">Actividades Turísticas</a>
+            <a class="buttonMenu" href="mapaInteractivo.html" target="_self">Mapa</a>
+            <a class="buttonMenu" href="referencias.html" target="_self">Referencias</a>
+        </nav><br>
+    </header><br>
+
+    <h2>Introducción</h2>
+    <p>
+        ¡Bienvenido a nuestro mapa interactivo de Villeta, Cundinamarca! Descubre la belleza y los encantos 
+        de esta región a través de una experiencia visual única. Explora sus lugares emblemáticos, sumérgete 
+        en su cultura, encuentra los mejores puntos de interés y planifica tu próxima aventura con nuestra 
+        herramienta interactiva. ¡Déjate llevar por la magia de Villeta desde la comodidad de tu pantalla!
+    </p>
+
+    <h2>Mapa Interactivo</h2>
+    <p>Haz clic en alguno de los botones <img src="images/RUN.png" alt="Atraccion"> para ver información de la atracción turistica:</p>
+    <!--Elemento que contiene al mapa interactivo-->
+    <div class="mapaInteractivoVilleta">
+	    <!--Imagen del mapa interactivo-->
+	    <img class="mapaTuristico" src="images/MapaTuristico.jpg" alt="Mapa Turistico Villeta">
+        <!--Imagen de los botones-->
+	    <a href="#Info" target="_self"><img class="atraccion1" onclick="atraccion1()" src="images/RUN.png" alt="Atraccion 1"></a>
+	    <a href="#Info" target="_self"><img class="atraccion2" onclick="atraccion2()" src="images/RUN.png" alt="Atraccion 2"></a>
+	    <a href="#Info" target="_self"><img class="atraccion3" onclick="atraccion3()" src="images/RUN.png" alt="Atraccion 3"></a>
+	    <a href="#Info" target="_self"><img class="atraccion4" onclick="atraccion4()" src="images/RUN.png" alt="Atraccion 4"></a>
+    </div>
+    <div class="mapaInteractivoVilleta">
+    <!--Párrafo con información sobre el lugar seleccionado del mapa interactivo.-->
+    <p id="Info"><img src="images/IconMapaTravel.png" alt="Atraccion"></p>
+    </div> 
+</body>
+</html>
